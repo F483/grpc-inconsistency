@@ -2,6 +2,10 @@
 
 Generated api does not preserve case of message fields!
 
+Based on [static code gen example](https://github.com/grpc/grpc/tree/master/examples/node/static_codegen)
+
+See package.json for how it was compiled (based on the above example).
+
 Code below from gererated proto/api_pb.js
 
 
