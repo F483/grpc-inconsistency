@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package test;
+
+service TestApi {
+  rpc TestCall (TestInput) returns (TestOutput);
+}
+
+message TestInput {
+  string fieldAlpha = 1;
+  string fieldBeta = 2;
+  string FieldGamma = 3;
+}
+
+message TestOutput {
+  string fieldDelta = 1;
+  string fieldEpsilon = 2;
+}
